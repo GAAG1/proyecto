@@ -15,7 +15,8 @@
             justify-content: center;
             margin-top: 10%;
         }
-        .card {
+        .card {display: flex;
+            justify-content:flex-end;
             width: 500px;
             height: 200px;
             background-color:rgb(0, 24, 59);
@@ -23,21 +24,24 @@
             overflow: hidden;
          }
         .card img {width: 40%;
-            height: 100%;
+                      height:100%;
             border-radius: 20px;
-        }
-        .card p{ text-align:center;
-            background-color: red;
-    color: red;
-    display: flex;}
+            position:relative;
+       }.card p{
+           color: red;
+          width: 10%;
+          height: 10%;
+       }
+       
         
     </style>
 </head>
 <body>
     <section>
         <div class="card">
-         <img src="https://as01.epimg.net/meristation/imagenes/2020/03/02/avances/1583135798_139815_1583163571_noticia_normal.jpg">
-         <p>valorant</p>
+            <p>VALORANT</p>
+         <img src="imagenes/perso-removebg.png">
+         
         </div>
      </section>
 </body>
